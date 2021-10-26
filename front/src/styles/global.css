@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  color:cornsilk;
+  background-color: #141414;
+}
