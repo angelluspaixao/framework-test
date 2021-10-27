@@ -14,7 +14,7 @@ const ToDos = () => {
 
     return (
         <div>
-            <h2>To Dos</h2>
+            <h2 className={styles.title} >Tarefas</h2>
 
             <ul className={styles.toDoList}>
                 {toDos.map(toDo => {

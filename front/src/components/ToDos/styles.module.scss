@@ -33,3 +33,48 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+@media (min-width: 360px) and (max-width: 600px) {
+    .title {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+}
+
+//     .toDoList {
+//         padding: 20px;
+//     }
+    
+//     .toDoDone {
+//         background-color: darkgreen;
+//         color: #fbfbfb;
+    
+//         height: 60px;
+//         border-radius: 4px;
+//         margin-bottom: 20px;
+//         padding: 10px;
+    
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+    
+//         &:hover {
+//             filter: brightness(1.15);
+//             cursor: pointer;
+//         }
+//     }
+    
+//     .toDoUndone {
+//         @extend .toDoDone;
+//         background-color: brown;
+//     }
+    
+//     .toDoTitle {
+//         font-size: 12px;
+//         line-height: 16px;
+//         text-transform: uppercase;
+//         text-align: center;
+//     }
+// }

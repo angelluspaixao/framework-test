@@ -14,7 +14,7 @@ const Posts = () => {
 
     return (
     <div>
-        <h2>Posts</h2>
+        <h2 className={styles.title}>Postagens</h2>
 
         <ul className={styles.postList}>
             {posts.map(post => {
