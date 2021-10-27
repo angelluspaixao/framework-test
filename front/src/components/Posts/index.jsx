@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { api } from '../../services/api'
+import PostItem from './item'
 import styles from './styles.module.scss'
 
 const Posts = () => {
@@ -11,10 +12,6 @@ const Posts = () => {
         })
     }, [])
 
-    const postClick = () => {
-        alert('Você abriria a postagem agora');
-    }
-
     return (
     <div>
         <h2>Posts</h2>
@@ -22,10 +19,7 @@ const Posts = () => {
         <ul className={styles.postList}>
             {posts.map(post => {
                 return (
-                    <li key={post.id} className={styles.post} onClick={postClick}>
-                        <h3 className={styles.postTitle}>{post.title}</h3>
-                        <p className={styles.postContent}>{post.body}</p>
-                    </li>
+                    <PostItem key={post.id} {...post} />
                 )
             })}
         </ul>
