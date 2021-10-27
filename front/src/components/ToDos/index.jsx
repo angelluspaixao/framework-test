@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { api } from "../services/api"
+import { api } from "../../services/api"
 import styles from './styles.module.scss'
 import ToDoItem from './item'
 
