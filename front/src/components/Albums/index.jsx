@@ -36,7 +36,7 @@ const Albums = () => {
 
     return (
         <div>
-            <h2>Albums</h2>
+            <h2 className={styles.title}>Albums</h2>
 
             <ul className={styles.albumList}>
             {albums.map(album => {
