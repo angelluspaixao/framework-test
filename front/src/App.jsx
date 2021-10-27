@@ -1,9 +1,15 @@
-import styles from './styles/App.module.scss'
+import styles from './App.module.scss'
+import Albums from './components/Albums'
+import Posts from './components/Posts'
+import ToDos from './components/ToDos'
 
-function App() {
+const App = () => {
   return (
-    <main className={styles.principal}>
-      <h1>Teste Framework Digital</h1>
+    <main className={styles.mainGrid}>
+      <h1 className={styles.title}>Teste Framework Digital</h1>
+      <Posts/>
+      <Albums/>
+      <ToDos/>
     </main>
   )
 }

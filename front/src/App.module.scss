@@ -1,0 +1,16 @@
+.mainGrid {
+  max-width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  grid-column: span 3;
+  height: 10vh;
+}

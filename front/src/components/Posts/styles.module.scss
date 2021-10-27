@@ -1,0 +1,40 @@
+.postList {
+    padding: 20px;
+}
+
+.post {
+    height: 170px;
+    width: 90%;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    &:hover {
+        filter: brightness(1.1);
+        cursor: pointer;
+    }
+}
+
+.postTitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+
+    color: #fff2a6;
+
+    margin-bottom: 10px;
+}
+
+.postContent {
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #999999;
+}
